@@ -2,7 +2,7 @@
 
 This project presents a complete autonomous navigation system for the Thymio robot, integrating computer vision, global path planning, and robust state estimation. The system enables the robot to navigate through an environment with static and dynamic obstacles using a top-down camera feed as its primary sensor.
 
-## 🚀 Key Features
+## Key Features
 * **Computer Vision Pipeline**: Real-time detection and tracking of the robot, goal, and obstacles using color-based segmentation and homography for perspective correction.
 * **Path Planning**: Implementation of the **A* algorithm** with a custom **Chebyshev distance** heuristic and diagonal movement penalties to ensure smooth, optimal trajectories.
 * **Robust State Estimation**: An **Extended Kalman Filter (EKF)** that fuses wheel odometry with vision data to maintain accurate pose estimation even during sensor noise or brief camera occlusions.
